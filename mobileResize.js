@@ -1,4 +1,4 @@
-var windowHeight = window.innerHeight;
+var windowHeight = window.outerHeight;
 
 function onload(){
 	document.getElementById("container").style.height=windowHeight+"px";
